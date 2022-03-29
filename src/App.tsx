@@ -59,7 +59,7 @@ function App() {
       </div>
       <div>
         {githubData.map((value, index) => (
-          <div key={index}>
+          <div className='infos-container' key={index}>
             <img src={value.avatar_url} />
             <li>{value.avatar_url}</li>
             <li>{value.login}</li>
