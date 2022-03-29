@@ -57,9 +57,10 @@ function App() {
           Buscar
         </button>
       </div>
-      <ul>
+      <div>
         {githubData.map((value, index) => (
           <div key={index}>
+            <img src={value.avatar_url} />
             <li>{value.avatar_url}</li>
             <li>{value.login}</li>
             <li>{value.name}</li>
@@ -69,7 +70,7 @@ function App() {
             <li>{value.repos_url}</li>
           </div>
         ))}
-      </ul>
+      </div>
     </div>
   );
 }

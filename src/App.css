@@ -24,3 +24,10 @@
   width: 300px;
   height: 40px;
 }
+
+img {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  border: 2px solid #80bdfe;
+}
